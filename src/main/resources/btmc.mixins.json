@@ -1,0 +1,13 @@
+{
+  "required": true,
+  "package": "thatmg393.bt.mc.mixin",
+  "compatibilityLevel": "JAVA_8",
+  "mixins": [
+    "TitleScreenMixin"
+  ],
+  "client": [],
+  "server": [],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}

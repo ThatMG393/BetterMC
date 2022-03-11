@@ -1,0 +1,29 @@
+{
+  "schemaVersion": 1,
+  "id": "btmc",
+  "version": "${version}",
+  "name": "BetterMC",
+  "description": "Adds bedrock server support and change client brand(e.g. Vannila, Fabric, Forge)",
+  "authors": [
+    "ThatMG393"
+  ],
+  "contributors": [],
+  "contact": {},
+  "license": "MIT",
+  "icon": "assets/btmc/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "thatmg393.bt.mc.BTMC"
+    ],
+    "client": [],
+    "server": []
+  },
+  "mixins": [
+    "btmc.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.13.3",
+    "fabric": "*"
+  }
+}
